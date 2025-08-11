@@ -20,7 +20,7 @@ const Header = (props) => {
       <div className="row justify-content-center">
         <div className="col-md-8">
           <a href="#">
-            <img src={FullLogo_Trasparent} alt="Logo" />
+            <img src={FullLogo_Trasparent} alt="Logo" loading='eager'/>
           </a>
           <Sidebars {...props} />
         </div>

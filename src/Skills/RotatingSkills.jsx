@@ -43,13 +43,13 @@ const RotatingSkills = () => {
         <div className="skill-list display-flex">
           {skills?.map((s, i) => (
             <div className="skill-icon" key={i}>
-              <img src={s.icon} alt={s.name} height={100} width={100} />
+              <img src={s.icon} alt={s.name} height={100} width={100} loading="lazy"/>
               <p>{s.name}</p>
             </div>
           ))}
           {skills?.map((s, i) => (
             <div className="skill-icon" key={i}>
-              <img src={s.icon} alt={s.name} height={100} width={100} />
+              <img src={s.icon} alt={s.name} height={100} width={100} loading="lazy"/>
               <p>{s.name}</p>
             </div>
           ))}

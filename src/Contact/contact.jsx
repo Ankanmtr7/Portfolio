@@ -16,14 +16,14 @@ const Contact = () => {
           <p className="email">
             {" "}
             <span>
-              <img src={mail} alt="Mail Icon" height={35} />
+              <img src={mail} alt="Mail Icon" height={35} loading="lazy"/>
             </span>
             your-email@example.com
           </p>
           <p className="call">
             {" "}
             <span>
-              <img src={whatsapp} alt="Call Icon" height={35} />
+              <img src={whatsapp} alt="Call Icon" height={35} loading="lazy" />
             </span>
             (123) 456-7890
           </p>

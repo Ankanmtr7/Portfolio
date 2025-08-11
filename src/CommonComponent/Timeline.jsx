@@ -11,7 +11,7 @@ const Timeline = (props) => {
 
       {position === "left" && (
         <>
-          <img src={section} alt="section" className="section-img" />
+          <img src={section} alt="section" className="section-img" loading="lazy"/>
           <div className="row margin-top-80 display-flex">
             <div className="col-md-6">
               <DotLottieReact
@@ -33,6 +33,7 @@ const Timeline = (props) => {
                         height={50}
                         width={50}
                         className="company-img"
+                        loading="lazy"
                       />
                       <figure>
                         <blockquote className="blockquote">
@@ -55,7 +56,7 @@ const Timeline = (props) => {
       )}
       {position === "right" && (
         <>
-          <img src={section} alt="section" className="section-img right-0" />
+          <img src={section} alt="section" className="section-img right-0" loading="lazy"/>
           <div className="row margin-top-80 display-flex">
             <div className="col-md-6 padding-left-150px">
               {timelineData.map((item) => (

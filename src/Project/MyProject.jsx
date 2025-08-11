@@ -76,7 +76,7 @@ const MyProject = () => {
         {ProjectDetails.map((project, index) => (
           <SplideSlide key={index} className="padding-top-bottom-20px">
             <div class="card projectCard" data-bs-theme="dark">
-              <img src={project.image} alt={`Image ${index + 1}`} />
+              <img src={project.image} alt={`Image ${index + 1}`} loading="lazy"/>
               <div class="card-body">
                 <h5 class="card-title">{project.title}</h5>
                 <p class="card-text">{project.description}</p>

@@ -19,7 +19,7 @@ const About = () => {
           </p>
         </div>
         <div className="col-md-6">
-          <img src={heroBanner} alt="About Me" className="about-img" />
+          <img src={heroBanner} alt="About Me" className="about-img" height={400} width={400} loading="lazy"/>
         </div>
       </div>
     </div>

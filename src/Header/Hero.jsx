@@ -1,5 +1,5 @@
 import React from "react";
-import heroBanner from "../Asset/logo/Hero-img.jpeg";
+import heroBanner from "../Asset/logo/Hero-img.webp";
 import { MoveToBottomIcon } from "@primer/octicons-react";
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="row">
         <div className="col-16 col-md-6 position-relative">
           <div className="hero-banner">
-            <img src={heroBanner} alt="Hero Banner" className="img-fluid" />
+            <img src={heroBanner} alt="Hero Banner" className="img-fluid" height={636} width={636} loading="eager"/>
           </div>
         </div>
         <div className="hero-text col-3 col-md-3 position-relative">
