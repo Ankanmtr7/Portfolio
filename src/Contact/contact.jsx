@@ -18,14 +18,14 @@ const Contact = () => {
             <span>
               <img src={mail} alt="Mail Icon" height={35} loading="lazy"/>
             </span>
-            your-email@example.com
+            ankanmtr7@gmail.com
           </p>
           <p className="call">
             {" "}
             <span>
               <img src={whatsapp} alt="Call Icon" height={35} loading="lazy" />
             </span>
-            (123) 456-7890
+            +91 7384564994
           </p>
         </div>
       </div>

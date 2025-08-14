@@ -52,6 +52,8 @@ const MyProject = () => {
         "A personal portfolio website showcasing my skills, projects, and experience as a web developer.",
       technologies: ["ReactJS", "HTML", "CSS", "JavaScript"],
       image: Porfolio,
+      git: "https://github.com/Ankanmtr7/Portfolio",
+      link: "https://cheerful-rabanadas-ad512a.netlify.app/",
     },
   ];
   const options = {

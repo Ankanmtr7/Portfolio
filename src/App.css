@@ -104,8 +104,9 @@
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  left: 80%;
-  top: -23px;
+  z-index: -1 ;
+  left: 20%;
+  top: 0px;
   animation: blobAnim 60s infinite;
 }
 .about {
@@ -493,4 +494,18 @@
 .sidebar-offcanvas {
   background-color: #ffb74d;
   padding: 20px;
+}
+.download {
+    height: 100px;
+    width: 400px;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-weight: 400 !important;
+  &:hover {
+    cursor: pointer;
+    .circle{
+      left: 60%;
+      transition: left 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    }
+  }
 }
