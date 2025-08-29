@@ -22,7 +22,7 @@ const Hero = () => {
             </p>
             <br />
             <br />
-            <p className="download text-end position-relative" onClick={()=>{window.open('https://drive.google.com/file/d/1Qbiuc_Vt1HQcYqqJEzfRga5P24cs9eVk/view', '_blank')}}>
+            <p className="download text-end position-relative" onClick={()=>{window.open('https://drive.google.com/file/d/1oc5fHpwT6vFFtQjbxiSxsYDDfoqz_NHx', '_blank')}}>
               Download Resume <MoveToBottomIcon size={14} className="ms-2 downloadIcon" />
               <span className="circle"></span>
             </p>
