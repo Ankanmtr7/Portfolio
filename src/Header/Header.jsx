@@ -16,7 +16,7 @@ const Header = (props) => {
   }, [])
 
   return (
-    <div className={`App-header container ${navBg ? 'bg-dark' : ''}`}>
+    <div className={`App-header container ${navBg ? 'nav-bg-dark' : ''}`}>
       <div className="row justify-content-center">
         <div className="col-md-8">
           <a href="#">

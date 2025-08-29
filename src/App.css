@@ -58,6 +58,11 @@
     border-radius: 46% 54% 32% 68% / 37% 53% 47% 63%;
   }
 }
+.nav-bg-dark{
+  opacity: 1;
+  background-color: rgb(32 36 40 / 60%);
+  backdrop-filter: blur(6px);
+}
 .hero-banner {
   overflow: hidden;
   position: relative;
